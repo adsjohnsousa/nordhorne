@@ -1,7 +1,7 @@
 <!DOCTYPE html><html class="js hdt-pr-img__effect-opacity hdt-badge__shape-circle dir--ltr " lang="en" dir="ltr"><head>
 
     <!-- Google tag (gtag.js) -->
-<script type="text/javascript" async="" src="js/events.js"></script><script type="text/javascript" async="" src="js/trekkie.storefront.853740ed6e9bdebbd97573c5bbdd9cfe5fb59a39.min.js"></script><script type="text/javascript" async="" src="js/trekkie.storefront.853740ed6e9bdebbd97573c5bbdd9cfe5fb59a39.min.js"></script><script async="" src="https://www.googletagmanager.com/gtag/js?id=AW-11301074465"></script>
+<script type="text/javascript" async="" src="js/events.js"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -917,7 +917,7 @@ Shopify.shopJsCdnBaseUrl = "https://cdn.shopify.com/shopifycloud/shop-js";</scri
   function portableWalletsCleanup(e){e&&e.src&&console.error("Failed to load portable wallets script "+e.src);var t=document.querySelectorAll("shopify-accelerated-checkout .shopify-payment-button__skeleton, shopify-accelerated-checkout-cart .wallet-cart-button__skeleton"),e=document.getElementById("shopify-buyer-consent");for(let e=0;e<t.length;e++)t[e].remove();e&&e.remove()}function portableWalletsNotLoadedAsModule(e){e instanceof ErrorEvent&&"string"==typeof e.message&&e.message.includes("import.meta")&&"string"==typeof e.filename&&e.filename.includes("portable-wallets")&&(window.removeEventListener("error",portableWalletsNotLoadedAsModule),window.Shopify.PaymentButton.failedToLoad=e,"loading"===document.readyState?document.addEventListener("DOMContentLoaded",window.Shopify.PaymentButton.init):window.Shopify.PaymentButton.init())}window.addEventListener("error",portableWalletsNotLoadedAsModule);
 </script>
 
-<script type="module" src="js/portable-wallets.en.js" onerror="portableWalletsCleanup(this)" crossorigin="anonymous"></script>
+
 <script nomodule="">
   document.addEventListener("DOMContentLoaded", portableWalletsCleanup);
 </script>
@@ -1268,7 +1268,7 @@ Shopify.shopJsCdnBaseUrl = "https://cdn.shopify.com/shopifycloud/shop-js";</scri
 
   
     
-    <link rel="modulepreload" href="https://cdn.shopify.com/extensions/019db5da-c1b2-7270-8b49-2d0370112c8d/kaching-bundles-1786/assets/kaching-bundles-block.js" crossorigin="anonymous" fetchpriority="high">
+    
 
     
       <style id="kaching-bundles-custom-css">
@@ -1289,9 +1289,9 @@ Shopify.shopJsCdnBaseUrl = "https://cdn.shopify.com/shopifycloud/shop-js";</scri
 
 
 
-  <link rel="modulepreload" href="https://cdn.shopify.com/extensions/019db5da-c1b2-7270-8b49-2d0370112c8d/kaching-bundles-1786/assets/kaching-bundles.js" crossorigin="anonymous" fetchpriority="high">
+  
   <script type="module" src="js/loader.js" crossorigin="anonymous" fetchpriority="high"></script>
-  <link rel="stylesheet" href="css/kaching-bundles.css" media="print" onload="this.media='all'" fetchpriority="high">
+  
 
   <style>
     .kaching-bundles__block {
@@ -1311,13 +1311,13 @@ Shopify.shopJsCdnBaseUrl = "https://cdn.shopify.com/shopifycloud/shop-js";</scri
 
 
 <!-- END app block --><script src="js/aftersell-utm-triggers.js" type="text/javascript" defer="defer"></script>
-<script src="js/inbox-chat-loader.js" type="text/javascript" defer="defer"></script>
+
 <link href="https://monorail-edge.shopifysvc.com" rel="dns-prefetch">
 <script>(function(){if ("sendBeacon" in navigator && "performance" in window) {try {var session_token_from_headers = performance.getEntriesByType('navigation')[0].serverTiming.find(x => x.name == '_s').description;} catch {var session_token_from_headers = undefined;}var session_cookie_matches = document.cookie.match(/_shopify_s=([^;]*)/);var session_token_from_cookie = session_cookie_matches && session_cookie_matches.length === 2 ? session_cookie_matches[1] : "";var session_token = session_token_from_headers || session_token_from_cookie || "";function handle_abandonment_event(e) {var entries = performance.getEntries().filter(function(entry) {return /monorail-edge.shopifysvc.com/.test(entry.name);});if (!window.abandonment_tracked && entries.length === 0) {window.abandonment_tracked = true;var currentMs = Date.now();var navigation_start = performance.timing.navigationStart;var payload = {shop_id: 74184655066,url: window.location.href,navigation_start,duration: currentMs - navigation_start,session_token,page_type: "product"};window.navigator.sendBeacon("https://monorail-edge.shopifysvc.com/v1/produce", JSON.stringify({schema_id: "online_store_buyer_site_abandonment/1.1",payload: payload,metadata: {event_created_at_ms: currentMs,event_sent_at_ms: currentMs}}));}}window.addEventListener('pagehide', handle_abandonment_event);}}());</script>
 <script>
   window.__TREKKIE_SHIM_QUEUE = window.__TREKKIE_SHIM_QUEUE || [];
 </script>
-<script id="web-pixels-manager-setup">(function e(e,d,r,n,o){if(void 0===o&&(o={}),!Boolean(null===(a=null===(i=window.Shopify)||void 0===i?void 0:i.analytics)||void 0===a?void 0:a.replayQueue)){var i,a;window.Shopify=window.Shopify||{};var t=window.Shopify;t.analytics=t.analytics||{};var s=t.analytics;s.replayQueue=[],s.publish=function(e,d,r){return s.replayQueue.push([e,d,r]),!0};try{self.performance.mark("wpm:start")}catch(e){}var l=function(){var e={modern:/Edge?\/(1{2}[4-9]|1[2-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Firefox\/(1{2}[4-9]|1[2-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Chrom(ium|e)\/(9{2}|\d{3,})\.\d+(\.\d+|)|(Maci|X1{2}).+ Version\/(15\.\d+|(1[6-9]|[2-9]\d|\d{3,})\.\d+)([,.]\d+|)( \(\w+\)|)( Mobile\/\w+|) Safari\/|Chrome.+OPR\/(9{2}|\d{3,})\.\d+\.\d+|(CPU[ +]OS|iPhone[ +]OS|CPU[ +]iPhone|CPU IPhone OS|CPU iPad OS)[ +]+(15[._]\d+|(1[6-9]|[2-9]\d|\d{3,})[._]\d+)([._]\d+|)|Android:?[ /-](13[3-9]|1[4-9]\d|[2-9]\d{2}|\d{4,})(\.\d+|)(\.\d+|)|Android.+Firefox\/(13[5-9]|1[4-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Android.+Chrom(ium|e)\/(13[3-9]|1[4-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|SamsungBrowser\/([2-9]\d|\d{3,})\.\d+/,legacy:/Edge?\/(1[6-9]|[2-9]\d|\d{3,})\.\d+(\.\d+|)|Firefox\/(5[4-9]|[6-9]\d|\d{3,})\.\d+(\.\d+|)|Chrom(ium|e)\/(5[1-9]|[6-9]\d|\d{3,})\.\d+(\.\d+|)([\d.]+$|.*Safari\/(?![\d.]+ Edge\/[\d.]+$))|(Maci|X1{2}).+ Version\/(10\.\d+|(1[1-9]|[2-9]\d|\d{3,})\.\d+)([,.]\d+|)( \(\w+\)|)( Mobile\/\w+|) Safari\/|Chrome.+OPR\/(3[89]|[4-9]\d|\d{3,})\.\d+\.\d+|(CPU[ +]OS|iPhone[ +]OS|CPU[ +]iPhone|CPU IPhone OS|CPU iPad OS)[ +]+(10[._]\d+|(1[1-9]|[2-9]\d|\d{3,})[._]\d+)([._]\d+|)|Android:?[ /-](13[3-9]|1[4-9]\d|[2-9]\d{2}|\d{4,})(\.\d+|)(\.\d+|)|Mobile Safari.+OPR\/([89]\d|\d{3,})\.\d+\.\d+|Android.+Firefox\/(13[5-9]|1[4-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Android.+Chrom(ium|e)\/(13[3-9]|1[4-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Android.+(UC? ?Browser|UCWEB|U3)[ /]?(15\.([5-9]|\d{2,})|(1[6-9]|[2-9]\d|\d{3,})\.\d+)\.\d+|SamsungBrowser\/(5\.\d+|([6-9]|\d{2,})\.\d+)|Android.+MQ{2}Browser\/(14(\.(9|\d{2,})|)|(1[5-9]|[2-9]\d|\d{3,})(\.\d+|))(\.\d+|)|K[Aa][Ii]OS\/(3\.\d+|([4-9]|\d{2,})\.\d+)(\.\d+|)/},d=e.modern,r=e.legacy,n=navigator.userAgent;return n.match(d)?"modern":n.match(r)?"legacy":"unknown"}(),u="modern"===l?"modern":"legacy",c=(null!=n?n:{modern:"",legacy:""})[u],f=function(e){return[e.baseUrl,"/wpm","/b",e.hashVersion,"modern"===e.buildTarget?"m":"l",".js"].join("")}({baseUrl:d,hashVersion:r,buildTarget:u}),m=function(e){var d=e.version,r=e.bundleTarget,n=e.surface,o=e.pageUrl,i=e.monorailEndpoint;return{emit:function(e){var a=e.status,t=e.errorMsg,s=(new Date).getTime(),l=JSON.stringify({metadata:{event_sent_at_ms:s},events:[{schema_id:"web_pixels_manager_load/3.1",payload:{version:d,bundle_target:r,page_url:o,status:a,surface:n,error_msg:t},metadata:{event_created_at_ms:s}}]});if(!i)return console&&console.warn&&console.warn("[Web Pixels Manager] No Monorail endpoint provided, skipping logging."),!1;try{return self.navigator.sendBeacon.bind(self.navigator)(i,l)}catch(e){}var u=new XMLHttpRequest;try{return u.open("POST",i,!0),u.setRequestHeader("Content-Type","text/plain"),u.send(l),!0}catch(e){return console&&console.warn&&console.warn("[Web Pixels Manager] Got an unhandled error while logging to Monorail."),!1}}}}({version:r,bundleTarget:l,surface:e.surface,pageUrl:self.location.href,monorailEndpoint:e.monorailEndpoint});try{o.browserTarget=l,function(e){var d=e.src,r=e.async,n=void 0===r||r,o=e.onload,i=e.onerror,a=e.sri,t=e.scriptDataAttributes,s=void 0===t?{}:t,l=document.createElement("script"),u=document.querySelector("head"),c=document.querySelector("body");if(l.async=n,l.src=d,a&&(l.integrity=a,l.crossOrigin="anonymous"),s)for(var f in s)if(Object.prototype.hasOwnProperty.call(s,f))try{l.dataset[f]=s[f]}catch(e){}if(o&&l.addEventListener("load",o),i&&l.addEventListener("error",i),u)u.appendChild(l);else{if(!c)throw new Error("Did not find a head or body element to append the script");c.appendChild(l)}}({src:f,async:!0,onload:function(){if(!function(){var e,d;return Boolean(null===(d=null===(e=window.Shopify)||void 0===e?void 0:e.analytics)||void 0===d?void 0:d.initialized)}()){var d=window.webPixelsManager.init(e)||void 0;if(d){var r=window.Shopify.analytics;r.replayQueue.forEach((function(e){var r=e[0],n=e[1],o=e[2];d.publishCustomEvent(r,n,o)})),r.replayQueue=[],r.publish=d.publishCustomEvent,r.visitor=d.visitor,r.initialized=!0}}},onerror:function(){return m.emit({status:"failed",errorMsg:"".concat(f," has failed to load")})},sri:function(e){var d=/^sha384-[A-Za-z0-9+/=]+$/;return"string"==typeof e&&d.test(e)}(c)?c:"",scriptDataAttributes:o}),m.emit({status:"loading"})}catch(e){m.emit({status:"failed",errorMsg:(null==e?void 0:e.message)||"Unknown error"})}}})({shopId: 74184655066,storefrontBaseUrl: "https://thenordhorne.com",extensionsBaseUrl: "https://extensions.shopifycdn.com/cdn/shopifycloud/web-pixels-manager",monorailEndpoint: "https://monorail-edge.shopifysvc.com/unstable/produce_batch",surface: "storefront-renderer",enabledBetaFlags: ["72028870","2dca8a86","d5bdd5d0","5476ea20"],webPixelsConfigList: [{"id":"2033713370","configuration":"{\"hashed_organization_id\":\"dd91921659bcb3a6c14268a811070bdf_v1\",\"app_key\":\"wsmeq9-eh\",\"allow_collect_personal_data\":\"true\"}","eventPayloadVersion":"v1","runtimeContext":"STRICT","scriptVersion":"3f97e2322a1600f1f75ad9c53e57d80e","type":"APP","apiClientId":111542,"privacyPurposes":["ANALYTICS","MARKETING","SALE_OF_DATA"],"dataSharingAdjustments":{"protectedCustomerApprovalScopes":["read_customer_address","read_customer_email","read_customer_name","read_customer_personal_data","read_customer_phone"],"dataSharingControls":["share_all_events"]},"dataSharingState":"optimized"},{"id":"1571094746","configuration":"{\"shopifyDomain\":\"wsmeq9-eh.myshopify.com\"}","eventPayloadVersion":"v1","runtimeContext":"STRICT","scriptVersion":"37a769b5b668b60cb0291a05db7e9499","type":"APP","apiClientId":2935586817,"privacyPurposes":[],"dataSharingAdjustments":{"protectedCustomerApprovalScopes":["read_customer_email","read_customer_personal_data"],"dataSharingControls":["share_all_events"]},"dataSharingState":"unrestricted"},{"id":"107806938","eventPayloadVersion":"1","runtimeContext":"LAX","scriptVersion":"1","type":"CUSTOM","privacyPurposes":[],"name":"InsighTrack"},{"id":"107839706","eventPayloadVersion":"1","runtimeContext":"LAX","scriptVersion":"1","type":"CUSTOM","privacyPurposes":[],"name":"Track Checkout"},{"id":"shopify-app-pixel","configuration":"{}","eventPayloadVersion":"v1","runtimeContext":"STRICT","scriptVersion":"0450","apiClientId":"shopify-pixel","type":"APP","privacyPurposes":["ANALYTICS","MARKETING"]},{"id":"shopify-custom-pixel","eventPayloadVersion":"v1","runtimeContext":"LAX","scriptVersion":"0450","apiClientId":"shopify-pixel","type":"CUSTOM","privacyPurposes":["ANALYTICS","MARKETING"]}],isMerchantRequest: false,initData: {"shop":{"name":"Nordhorne","paymentSettings":{"currencyCode":"USD"},"myshopifyDomain":"wsmeq9-eh.myshopify.com","countryCode":"US","storefrontUrl":"https:\/\/thenordhorne.com"},"customer":null,"cart":null,"checkout":null,"productVariants":[{"price":{"amount":66.95,"currencyCode":"EUR"},"product":{"title":"Omega Speedmaster - Silver Snoopy","vendor":"Chronovell","id":"9162132095194","untranslatedTitle":"Omega Speedmaster - Silver Snoopy","url":"\/products\/omega-speedmaster-silver-snoopy","type":"Men's Watch"},"id":"47577414205658","image":{"src":"\/\/thenordhorne.com\/cdn\/shop\/files\/imagem12.png?v=1771248859"},"sku":null,"title":"Nylon","untranslatedTitle":"Nylon"},{"price":{"amount":73.95,"currencyCode":"EUR"},"product":{"title":"Omega Speedmaster - Silver Snoopy","vendor":"Chronovell","id":"9162132095194","untranslatedTitle":"Omega Speedmaster - Silver Snoopy","url":"\/products\/omega-speedmaster-silver-snoopy","type":"Men's Watch"},"id":"47577414238426","image":{"src":"\/\/thenordhorne.com\/cdn\/shop\/files\/imagem10_69ede61f-327b-4ceb-bb40-bca4edc26d90.png?v=1771248859"},"sku":null,"title":"Stainless steel","untranslatedTitle":"Stainless steel"}],"purchasingCompany":null},},"https://thenordhorne.com/cdn","5153dfa3wa14e0a32p72aa89e7m94579b79",{"modern":"","legacy":""},{"trekkieShim":true,"shopId":"74184655066","storefrontBaseUrl":"https:\/\/thenordhorne.com","extensionBaseUrl":"https:\/\/extensions.shopifycdn.com\/cdn\/shopifycloud\/web-pixels-manager","surface":"storefront-renderer","enabledBetaFlags":"[\"72028870\", \"2dca8a86\", \"d5bdd5d0\", \"5476ea20\"]","isMerchantRequest":"false","hashVersion":"5153dfa3wa14e0a32p72aa89e7m94579b79","publish":"custom","events":"[[\"page_viewed\",{}],[\"product_viewed\",{\"productVariant\":{\"price\":{\"amount\":66.95,\"currencyCode\":\"EUR\"},\"product\":{\"title\":\"Omega Speedmaster - Silver Snoopy\",\"vendor\":\"Chronovell\",\"id\":\"9162132095194\",\"untranslatedTitle\":\"Omega Speedmaster - Silver Snoopy\",\"url\":\"\/products\/omega-speedmaster-silver-snoopy\",\"type\":\"Men's Watch\"},\"id\":\"47577414205658\",\"image\":{\"src\":\"\/\/thenordhorne.com\/cdn\/shop\/files\/imagem12.png?v=1771248859\"},\"sku\":null,\"title\":\"Nylon\",\"untranslatedTitle\":\"Nylon\"}}]]"});</script><script async="" src="js/b5153dfa3wa14e0a32p72aa89e7m94579b79m.js" data-trekkie-shim="true" data-shop-id="74184655066" data-storefront-base-url="https://thenordhorne.com" data-extension-base-url="https://extensions.shopifycdn.com/cdn/shopifycloud/web-pixels-manager" data-surface="storefront-renderer" data-enabled-beta-flags="[" 72028870",="" "2dca8a86",="" "d5bdd5d0",="" "5476ea20"]"="" data-is-merchant-request="false" data-hash-version="5153dfa3wa14e0a32p72aa89e7m94579b79" data-publish="custom" data-events="[[" page_viewed",{}],["product_viewed",{"productvariant":{"price":{"amount":66.95,"currencycode":"eur"},"product":{"title":"omega="" speedmaster="" -="" silver="" snoopy","vendor":"chronovell","id":"9162132095194","untranslatedtitle":"omega="" snoopy","url":"="" products="" omega-speedmaster-silver-snoopy","type":"men's="" watch"},"id":"47577414205658","image":{"src":"="" thenordhorne.com="" cdn="" shop="" files="" imagem12.png?v="1771248859" },"sku":null,"title":"nylon","untranslatedtitle":"nylon"}}]]""="" data-browser-target="modern"></script><script>
+<script id="web-pixels-manager-setup">(function e(e,d,r,n,o){if(void 0===o&&(o={}),!Boolean(null===(a=null===(i=window.Shopify)||void 0===i?void 0:i.analytics)||void 0===a?void 0:a.replayQueue)){var i,a;window.Shopify=window.Shopify||{};var t=window.Shopify;t.analytics=t.analytics||{};var s=t.analytics;s.replayQueue=[],s.publish=function(e,d,r){return s.replayQueue.push([e,d,r]),!0};try{self.performance.mark("wpm:start")}catch(e){}var l=function(){var e={modern:/Edge?\/(1{2}[4-9]|1[2-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Firefox\/(1{2}[4-9]|1[2-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Chrom(ium|e)\/(9{2}|\d{3,})\.\d+(\.\d+|)|(Maci|X1{2}).+ Version\/(15\.\d+|(1[6-9]|[2-9]\d|\d{3,})\.\d+)([,.]\d+|)( \(\w+\)|)( Mobile\/\w+|) Safari\/|Chrome.+OPR\/(9{2}|\d{3,})\.\d+\.\d+|(CPU[ +]OS|iPhone[ +]OS|CPU[ +]iPhone|CPU IPhone OS|CPU iPad OS)[ +]+(15[._]\d+|(1[6-9]|[2-9]\d|\d{3,})[._]\d+)([._]\d+|)|Android:?[ /-](13[3-9]|1[4-9]\d|[2-9]\d{2}|\d{4,})(\.\d+|)(\.\d+|)|Android.+Firefox\/(13[5-9]|1[4-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Android.+Chrom(ium|e)\/(13[3-9]|1[4-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|SamsungBrowser\/([2-9]\d|\d{3,})\.\d+/,legacy:/Edge?\/(1[6-9]|[2-9]\d|\d{3,})\.\d+(\.\d+|)|Firefox\/(5[4-9]|[6-9]\d|\d{3,})\.\d+(\.\d+|)|Chrom(ium|e)\/(5[1-9]|[6-9]\d|\d{3,})\.\d+(\.\d+|)([\d.]+$|.*Safari\/(?![\d.]+ Edge\/[\d.]+$))|(Maci|X1{2}).+ Version\/(10\.\d+|(1[1-9]|[2-9]\d|\d{3,})\.\d+)([,.]\d+|)( \(\w+\)|)( Mobile\/\w+|) Safari\/|Chrome.+OPR\/(3[89]|[4-9]\d|\d{3,})\.\d+\.\d+|(CPU[ +]OS|iPhone[ +]OS|CPU[ +]iPhone|CPU IPhone OS|CPU iPad OS)[ +]+(10[._]\d+|(1[1-9]|[2-9]\d|\d{3,})[._]\d+)([._]\d+|)|Android:?[ /-](13[3-9]|1[4-9]\d|[2-9]\d{2}|\d{4,})(\.\d+|)(\.\d+|)|Mobile Safari.+OPR\/([89]\d|\d{3,})\.\d+\.\d+|Android.+Firefox\/(13[5-9]|1[4-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Android.+Chrom(ium|e)\/(13[3-9]|1[4-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Android.+(UC? ?Browser|UCWEB|U3)[ /]?(15\.([5-9]|\d{2,})|(1[6-9]|[2-9]\d|\d{3,})\.\d+)\.\d+|SamsungBrowser\/(5\.\d+|([6-9]|\d{2,})\.\d+)|Android.+MQ{2}Browser\/(14(\.(9|\d{2,})|)|(1[5-9]|[2-9]\d|\d{3,})(\.\d+|))(\.\d+|)|K[Aa][Ii]OS\/(3\.\d+|([4-9]|\d{2,})\.\d+)(\.\d+|)/},d=e.modern,r=e.legacy,n=navigator.userAgent;return n.match(d)?"modern":n.match(r)?"legacy":"unknown"}(),u="modern"===l?"modern":"legacy",c=(null!=n?n:{modern:"",legacy:""})[u],f=function(e){return[e.baseUrl,"/wpm","/b",e.hashVersion,"modern"===e.buildTarget?"m":"l",".js"].join("")}({baseUrl:d,hashVersion:r,buildTarget:u}),m=function(e){var d=e.version,r=e.bundleTarget,n=e.surface,o=e.pageUrl,i=e.monorailEndpoint;return{emit:function(e){var a=e.status,t=e.errorMsg,s=(new Date).getTime(),l=JSON.stringify({metadata:{event_sent_at_ms:s},events:[{schema_id:"web_pixels_manager_load/3.1",payload:{version:d,bundle_target:r,page_url:o,status:a,surface:n,error_msg:t},metadata:{event_created_at_ms:s}}]});if(!i)return console&&console.warn&&console.warn("[Web Pixels Manager] No Monorail endpoint provided, skipping logging."),!1;try{return self.navigator.sendBeacon.bind(self.navigator)(i,l)}catch(e){}var u=new XMLHttpRequest;try{return u.open("POST",i,!0),u.setRequestHeader("Content-Type","text/plain"),u.send(l),!0}catch(e){return console&&console.warn&&console.warn("[Web Pixels Manager] Got an unhandled error while logging to Monorail."),!1}}}}({version:r,bundleTarget:l,surface:e.surface,pageUrl:self.location.href,monorailEndpoint:e.monorailEndpoint});try{o.browserTarget=l,function(e){var d=e.src,r=e.async,n=void 0===r||r,o=e.onload,i=e.onerror,a=e.sri,t=e.scriptDataAttributes,s=void 0===t?{}:t,l=document.createElement("script"),u=document.querySelector("head"),c=document.querySelector("body");if(l.async=n,l.src=d,a&&(l.integrity=a,l.crossOrigin="anonymous"),s)for(var f in s)if(Object.prototype.hasOwnProperty.call(s,f))try{l.dataset[f]=s[f]}catch(e){}if(o&&l.addEventListener("load",o),i&&l.addEventListener("error",i),u)u.appendChild(l);else{if(!c)throw new Error("Did not find a head or body element to append the script");c.appendChild(l)}}({src:f,async:!0,onload:function(){if(!function(){var e,d;return Boolean(null===(d=null===(e=window.Shopify)||void 0===e?void 0:e.analytics)||void 0===d?void 0:d.initialized)}()){var d=window.webPixelsManager.init(e)||void 0;if(d){var r=window.Shopify.analytics;r.replayQueue.forEach((function(e){var r=e[0],n=e[1],o=e[2];d.publishCustomEvent(r,n,o)})),r.replayQueue=[],r.publish=d.publishCustomEvent,r.visitor=d.visitor,r.initialized=!0}}},onerror:function(){return m.emit({status:"failed",errorMsg:"".concat(f," has failed to load")})},sri:function(e){var d=/^sha384-[A-Za-z0-9+/=]+$/;return"string"==typeof e&&d.test(e)}(c)?c:"",scriptDataAttributes:o}),m.emit({status:"loading"})}catch(e){m.emit({status:"failed",errorMsg:(null==e?void 0:e.message)||"Unknown error"})}}})({shopId: 74184655066,storefrontBaseUrl: "https://thenordhorne.com",extensionsBaseUrl: "https://extensions.shopifycdn.com/cdn/shopifycloud/web-pixels-manager",monorailEndpoint: "https://monorail-edge.shopifysvc.com/unstable/produce_batch",surface: "storefront-renderer",enabledBetaFlags: ["72028870","2dca8a86","d5bdd5d0","5476ea20"],webPixelsConfigList: [{"id":"2033713370","configuration":"{\"hashed_organization_id\":\"dd91921659bcb3a6c14268a811070bdf_v1\",\"app_key\":\"wsmeq9-eh\",\"allow_collect_personal_data\":\"true\"}","eventPayloadVersion":"v1","runtimeContext":"STRICT","scriptVersion":"3f97e2322a1600f1f75ad9c53e57d80e","type":"APP","apiClientId":111542,"privacyPurposes":["ANALYTICS","MARKETING","SALE_OF_DATA"],"dataSharingAdjustments":{"protectedCustomerApprovalScopes":["read_customer_address","read_customer_email","read_customer_name","read_customer_personal_data","read_customer_phone"],"dataSharingControls":["share_all_events"]},"dataSharingState":"optimized"},{"id":"1571094746","configuration":"{\"shopifyDomain\":\"wsmeq9-eh.myshopify.com\"}","eventPayloadVersion":"v1","runtimeContext":"STRICT","scriptVersion":"37a769b5b668b60cb0291a05db7e9499","type":"APP","apiClientId":2935586817,"privacyPurposes":[],"dataSharingAdjustments":{"protectedCustomerApprovalScopes":["read_customer_email","read_customer_personal_data"],"dataSharingControls":["share_all_events"]},"dataSharingState":"unrestricted"},{"id":"107806938","eventPayloadVersion":"1","runtimeContext":"LAX","scriptVersion":"1","type":"CUSTOM","privacyPurposes":[],"name":"InsighTrack"},{"id":"107839706","eventPayloadVersion":"1","runtimeContext":"LAX","scriptVersion":"1","type":"CUSTOM","privacyPurposes":[],"name":"Track Checkout"},{"id":"shopify-app-pixel","configuration":"{}","eventPayloadVersion":"v1","runtimeContext":"STRICT","scriptVersion":"0450","apiClientId":"shopify-pixel","type":"APP","privacyPurposes":["ANALYTICS","MARKETING"]},{"id":"shopify-custom-pixel","eventPayloadVersion":"v1","runtimeContext":"LAX","scriptVersion":"0450","apiClientId":"shopify-pixel","type":"CUSTOM","privacyPurposes":["ANALYTICS","MARKETING"]}],isMerchantRequest: false,initData: {"shop":{"name":"Nordhorne","paymentSettings":{"currencyCode":"USD"},"myshopifyDomain":"wsmeq9-eh.myshopify.com","countryCode":"US","storefrontUrl":"https:\/\/thenordhorne.com"},"customer":null,"cart":null,"checkout":null,"productVariants":[{"price":{"amount":66.95,"currencyCode":"EUR"},"product":{"title":"Omega Speedmaster - Silver Snoopy","vendor":"Chronovell","id":"9162132095194","untranslatedTitle":"Omega Speedmaster - Silver Snoopy","url":"\/products\/omega-speedmaster-silver-snoopy","type":"Men's Watch"},"id":"47577414205658","image":{"src":"\/\/thenordhorne.com\/cdn\/shop\/files\/imagem12.png?v=1771248859"},"sku":null,"title":"Nylon","untranslatedTitle":"Nylon"},{"price":{"amount":73.95,"currencyCode":"EUR"},"product":{"title":"Omega Speedmaster - Silver Snoopy","vendor":"Chronovell","id":"9162132095194","untranslatedTitle":"Omega Speedmaster - Silver Snoopy","url":"\/products\/omega-speedmaster-silver-snoopy","type":"Men's Watch"},"id":"47577414238426","image":{"src":"\/\/thenordhorne.com\/cdn\/shop\/files\/imagem10_69ede61f-327b-4ceb-bb40-bca4edc26d90.png?v=1771248859"},"sku":null,"title":"Stainless steel","untranslatedTitle":"Stainless steel"}],"purchasingCompany":null},},"https://thenordhorne.com/cdn","5153dfa3wa14e0a32p72aa89e7m94579b79",{"modern":"","legacy":""},{"trekkieShim":true,"shopId":"74184655066","storefrontBaseUrl":"https:\/\/thenordhorne.com","extensionBaseUrl":"https:\/\/extensions.shopifycdn.com\/cdn\/shopifycloud\/web-pixels-manager","surface":"storefront-renderer","enabledBetaFlags":"[\"72028870\", \"2dca8a86\", \"d5bdd5d0\", \"5476ea20\"]","isMerchantRequest":"false","hashVersion":"5153dfa3wa14e0a32p72aa89e7m94579b79","publish":"custom","events":"[[\"page_viewed\",{}],[\"product_viewed\",{\"productVariant\":{\"price\":{\"amount\":66.95,\"currencyCode\":\"EUR\"},\"product\":{\"title\":\"Omega Speedmaster - Silver Snoopy\",\"vendor\":\"Chronovell\",\"id\":\"9162132095194\",\"untranslatedTitle\":\"Omega Speedmaster - Silver Snoopy\",\"url\":\"\/products\/omega-speedmaster-silver-snoopy\",\"type\":\"Men's Watch\"},\"id\":\"47577414205658\",\"image\":{\"src\":\"\/\/thenordhorne.com\/cdn\/shop\/files\/imagem12.png?v=1771248859\"},\"sku\":null,\"title\":\"Nylon\",\"untranslatedTitle\":\"Nylon\"}}]]"});</script><script>
   window.ShopifyAnalytics = window.ShopifyAnalytics || {};
   window.ShopifyAnalytics.meta = window.ShopifyAnalytics.meta || {};
   window.ShopifyAnalytics.meta.currency = 'EUR';
@@ -2192,7 +2192,7 @@ first.parentNode.insertBefore(script, first);
     
 </div>
 
-<div class="hdt-product-info__item hdt-product__buy-button" style="width:100%;"><wrapp-hdt-pr-frm class="hdt-contents"><form method="post" action="/cart/add" id="product-form-template--21215523635418__main-product9162132095194" accept-charset="UTF-8" class="hdt-main-product-form" enctype="multipart/form-data" data-gift-card-recipient="false"><input type="hidden" name="form_type" value="product"><input type="hidden" name="utf8" value="✓"><input type="hidden" name="id" value="47577414205658"><div class="hdt-form__message-wrapper hdt-form-message--error" role="alert" ref="addToCartTextError" hidden=""><svg aria-hidden="true" focusable="false" class="hdt-icon hdt-icon-error" width="15" height="15" viewBox="0 0 13 13">
+<div class="hdt-product-info__item hdt-product__buy-button" style="width:100%;"><wrapp-hdt-pr-frm class="hdt-contents"><form method="post" action="javascript:void(0)" id="product-form-template--21215523635418__main-product9162132095194" accept-charset="UTF-8" class="hdt-main-product-form" enctype="multipart/form-data" data-gift-card-recipient="false"><input type="hidden" name="form_type" value="product"><input type="hidden" name="utf8" value="✓"><input type="hidden" name="id" value="47577414205658"><div class="hdt-form__message-wrapper hdt-form-message--error" role="alert" ref="addToCartTextError" hidden=""><svg aria-hidden="true" focusable="false" class="hdt-icon hdt-icon-error" width="15" height="15" viewBox="0 0 13 13">
       <circle cx="6.5" cy="6.50049" r="5.5" stroke="white" stroke-width="2"></circle>
       <circle cx="6.5" cy="6.5" r="5.5" fill="currentColor" stroke="currentColor" stroke-width="0.7"></circle>
       <path d="M5.87413 3.52832L5.97439 7.57216H7.02713L7.12739 3.52832H5.87413ZM6.50076 9.66091C6.88091 9.66091 7.18169 9.37267 7.18169 9.00504C7.18169 8.63742 6.88091 8.34917 6.50076 8.34917C6.12061 8.34917 5.81982 8.63742 5.81982 9.00504C5.81982 9.37267 6.12061 9.66091 6.50076 9.66091Z" fill="white"></path>
@@ -2203,7 +2203,7 @@ first.parentNode.insertBefore(script, first);
             
             
               <hdt-atc-animation class="hdt-contents" config="{ " ani":="" "none",="" "time":="" "2"="" }"="">
-                <button data-animation="" type="submit" name="add" class="hdt-product-form__submit hdt-btn hdt-oh hdt-atc-full hdt-uppercase  hdt-font-semibold hdt-relative hdt-truncate hdt-btn-loading__svg" style="--duration-time: 1s">
+                <button data-animation="" type="button" onclick="window.open('https://SEU-LINK-AQUI.com','_blank')" class="hdt-product-form__submit hdt-btn hdt-oh hdt-atc-full hdt-uppercase  hdt-font-semibold hdt-relative hdt-truncate hdt-btn-loading__svg" style="--duration-time: 1s">
                   <span class="hdt-btn-atc_text">Add to cart</span> 
                   <span class="hdt-loading__spinner hdt-absolute" hidden="">
                     <svg width="16" height="16" class="hdt-svg-spinner" focusable="false" role="presentation" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg"><circle class="hdt-path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle></svg>
@@ -2211,7 +2211,7 @@ first.parentNode.insertBefore(script, first);
                 </button>
               </hdt-atc-animation>
             
-</div><div data-shopify="payment-button" class="shopify-payment-button"> <shopify-accelerated-checkout recommended="null" fallback="{" supports_subs":true,"supports_def_opts":true,"name":"buy_it_now","wallet_params":{}}"="" access-token="08d1e2eae1046b1329889b8d6e0b5f45" buyer-country="NL" buyer-locale="en" buyer-currency="EUR" variant-params="[{" id":47577414205658,"requiresshipping":true},{"id":47577414238426,"requiresshipping":true}]"="" shop-id="74184655066" enabled-flags="[" 5865c7bd","ce346acf"]"=""> <div class="shopify-payment-button__button" role="button" disabled="" aria-hidden="true" style="background-color: transparent; border: none">  </div> </shopify-accelerated-checkout>  </div>
+</div>
 </hdt-buy-buttons><input type="hidden" name="product-id" value="9162132095194"><input type="hidden" name="section-id" value="template--21215523635418__main-product"></form></wrapp-hdt-pr-frm></div>
 
 
@@ -2235,7 +2235,7 @@ first.parentNode.insertBefore(script, first);
           </div>
         </div>
         <div class="hdt-sticky-atc__infos">
-          <wrapp-hdt-pr-frm class="hdt-contents"><form method="post" action="/cart/add" id="form-product-sticky9162132095194" accept-charset="UTF-8" class="hdt-sticky-atc__form hdt-flex hdt-align-center" enctype="multipart/form-data" data-gift-card-recipient="false"><input type="hidden" name="form_type" value="product"><input type="hidden" name="utf8" value="✓">
+          <wrapp-hdt-pr-frm class="hdt-contents"><form method="post" action="javascript:void(0)" id="form-product-sticky9162132095194" accept-charset="UTF-8" class="hdt-sticky-atc__form hdt-flex hdt-align-center" enctype="multipart/form-data" data-gift-card-recipient="false"><input type="hidden" name="form_type" value="product"><input type="hidden" name="utf8" value="✓">
               
                 <div class="hdt-sticky-atc__variant-price"><select name="id" class="hdt-select hdt-s-text hdt-truncate" tag-select=""><option data-mdid="41485791363290" selected="selected" value="47577414205658">Nylon - €66,95</option><option data-mdid="41485791396058" value="47577414238426">Stainless steel - €73,95</option></select>
                   
@@ -2256,7 +2256,7 @@ first.parentNode.insertBefore(script, first);
 </div></div>
 
                 <hdt-atc-animation class="hdt-contents" config="{ " ani":="" "none",="" "time":="" "6"="" }"="">
-                  <button data-animation="" type="submit" name="add" class="hdt-sticky-atc__submit hdt-btn hdt-oh hdt-uppercase  hdt-font-semibold hdt-relative hdt-truncate hdt-btn-loading__svg" style="--duration-time: 1s">
+                  <button data-animation="" type="button" onclick="window.open('https://SEU-LINK-AQUI.com','_blank')" class="hdt-sticky-atc__submit hdt-btn hdt-oh hdt-uppercase  hdt-font-semibold hdt-relative hdt-truncate hdt-btn-loading__svg" style="--duration-time: 1s">
                     <span class="hdt-btn-atc_text">Add to cart</span> 
                     <span class="hdt-loading__spinner hdt-absolute" hidden="">
                       <svg width="16" height="16" class="hdt-svg-spinner" focusable="false" role="presentation" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg"><circle class="hdt-path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle></svg>
@@ -3234,4 +3234,88 @@ first.parentNode.insertBefore(script, first);
 
 </div>
 
+<script>
+(function() {
+  // Mapeamento: imagem principal -> miniatura (thumb)
+  var slides = [
+    { main: "images/imagem10_69ede61f-327b-4ceb-bb40-bca4edc26d90.png",    thumb: "images/imagem10_69ede61f-327b-4ceb-bb40-bca4edc26d90_1.png" },
+    { main: "images/imagem12.png",                                           thumb: "images/imagem12_1.png" },
+    { main: "images/imagem03_d011fc14-727f-4cbf-85bd-25e0f4799476_1.png",   thumb: "images/imagem03_d011fc14-727f-4cbf-85bd-25e0f4799476.png" },
+    { main: "images/imagem05_9dea59b0-5ca9-4754-be52-a8076d107d90.png",     thumb: "images/imagem05_9dea59b0-5ca9-4754-be52-a8076d107d90_1.png" },
+    { main: "images/imagem14_0c25f272-599f-40e5-ad01-44083c63479f_1.png",   thumb: "images/imagem14_0c25f272-599f-40e5-ad01-44083c63479f.png" },
+    { main: "images/imagem01_6a9da22d-b676-4618-ac4f-cf408f643b65.png",     thumb: "images/imagem01_6a9da22d-b676-4618-ac4f-cf408f643b65_1.png" },
+    { main: "images/imagem11_11b47fb4-b19a-42da-93c7-ab4b531a5dc4_1.png",   thumb: "images/imagem11_11b47fb4-b19a-42da-93c7-ab4b531a5dc4.png" },
+    { main: "images/imagem07_db7b263f-f8f2-4528-92fd-16349d9a5805_1.png",   thumb: "images/imagem07_db7b263f-f8f2-4528-92fd-16349d9a5805.png" },
+    { main: "images/imagem02_4d22c2cd-a495-47b0-a899-fd2e9983f982_1.png",   thumb: "images/imagem02_4d22c2cd-a495-47b0-a899-fd2e9983f982.png" },
+    { main: "images/imagem04_23d37638-e411-422e-ab9d-b2b422b57243.png",     thumb: "images/imagem04_23d37638-e411-422e-ab9d-b2b422b57243_1.png" },
+    { main: "images/imagem06_3da5044d-cd30-4e46-81f2-ee8491b79c64_1.png",   thumb: "images/imagem06_3da5044d-cd30-4e46-81f2-ee8491b79c64.png" },
+    { main: "images/imagem08_6c32af03-b8d1-48ea-9148-1723ff4ac757_1.png",   thumb: "images/imagem08_6c32af03-b8d1-48ea-9148-1723ff4ac757.png" },
+    { main: "images/imagem09_a9bcb182-2c00-4c25-b8f3-cef56efc168b_2.png",   thumb: "images/imagem09_a9bcb182-2c00-4c25-b8f3-cef56efc168b_1.png" },
+    { main: "images/imagem13_a9ff316e-7f42-4060-b162-44218bcda92e_1.png",   thumb: "images/imagem13_a9ff316e-7f42-4060-b162-44218bcda92e.png" }
+  ];
+
+  var currentIndex = 0;
+
+  function buildGallery() {
+    var mediaWrap = document.querySelector('.hdt-product-media-wrapps');
+    if (!mediaWrap) return;
+
+    // Container externo
+    var gallery = document.createElement('div');
+    gallery.id = 'custom-gallery';
+    gallery.style.cssText = 'display:flex; gap:12px; align-items:flex-start; width:100%;';
+
+    // Coluna de miniaturas (esquerda)
+    var thumbCol = document.createElement('div');
+    thumbCol.id = 'custom-thumbs';
+    thumbCol.style.cssText = 'display:flex; flex-direction:column; gap:8px; width:80px; flex-shrink:0; max-height:560px; overflow-y:auto;';
+
+    // Imagem principal (direita)
+    var mainWrap = document.createElement('div');
+    mainWrap.style.cssText = 'flex:1; overflow:hidden; border-radius:4px;';
+
+    var mainImg = document.createElement('img');
+    mainImg.id = 'custom-main-img';
+    mainImg.src = slides[0].main;
+    mainImg.style.cssText = 'width:100%; display:block; object-fit:contain; max-height:560px; cursor:zoom-in; transition:opacity 0.2s;';
+    mainWrap.appendChild(mainImg);
+
+    // Miniaturas
+    slides.forEach(function(slide, i) {
+      var thumb = document.createElement('img');
+      thumb.src = slide.thumb;
+      thumb.style.cssText = 'width:72px; height:72px; object-fit:cover; border-radius:4px; cursor:pointer; border:2px solid ' + (i === 0 ? '#000' : 'transparent') + '; transition:border-color 0.15s;';
+      thumb.dataset.index = i;
+
+      thumb.addEventListener('click', function() {
+        var idx = parseInt(this.dataset.index);
+        currentIndex = idx;
+        mainImg.style.opacity = '0';
+        setTimeout(function() {
+          mainImg.src = slides[idx].main;
+          mainImg.style.opacity = '1';
+        }, 150);
+        document.querySelectorAll('#custom-thumbs img').forEach(function(t) {
+          t.style.border = '2px solid transparent';
+        });
+        this.style.border = '2px solid #000';
+      });
+
+      thumbCol.appendChild(thumb);
+    });
+
+    gallery.appendChild(thumbCol);
+    gallery.appendChild(mainWrap);
+
+    // Substituir o elemento original
+    mediaWrap.parentNode.replaceChild(gallery, mediaWrap);
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', buildGallery);
+  } else {
+    buildGallery();
+  }
+})();
+</script>
 </body></html>
